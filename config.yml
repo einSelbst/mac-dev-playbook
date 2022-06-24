@@ -1,0 +1,61 @@
+
+homebrew_installed_packages:
+  - zsh
+  - git
+  - zsh-history-substring-search
+  - zsh-syntax-highlighting
+  - zsh-autosuggestions
+  - zsh-you-should-use
+  - zsh-git-prompt
+
+#  - dockutil
+
+homebrew_cask_apps:
+  - slack
+  - timeular
+  - github
+  - iterm2
+  - hpedrorodrigues/tools/dockutil
+
+#mas_installed_apps:
+#  - { id: 443987910, name: "1Password" }
+#  - { id: 498486288, name: "Quick Resizer" }
+#  - { id: 557168941, name: "Tweetbot" }
+#  - { id: 497799835, name: "Xcode" }
+
+#composer_packages:
+#  - name: hirak/prestissimo
+#  - name: drush/drush
+#    version: '^8.1'
+
+#gem_packages:
+#  - name: bundler
+#    state: latest
+
+#npm_packages:
+#  - name: webpack
+
+#pip_packages:
+#  - name: mkdocs
+
+configure_dotfiles: no
+dotfiles_repo: https://github.com/einSelbst/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/
+dotfiles_files:
+  - .zshrc
+  - .zshenv
+  - .zshaliases
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
+
+configure_dock: true
+dockitems_remove:
+  - Maps
+  - TV
+dockitems_persist:
+  - name: "GitHub Desktop"
+    path: "/Applications/GitHub Desktop.app/"
+    pos: 5
