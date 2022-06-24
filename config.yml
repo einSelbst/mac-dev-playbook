@@ -28,7 +28,6 @@ homebrew_cask_apps:
   - iterm2
   - lastpass
   - marked
-  - mcreator
   #- multipass
   - notion
   - postman
