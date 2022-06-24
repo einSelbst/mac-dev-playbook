@@ -11,11 +11,24 @@ homebrew_installed_packages:
 #  - dockutil
 
 homebrew_cask_apps:
+  - iterm2
+  - hpedrorodrigues/tools/dockutil
+  - barrier
   - slack
   - timeular
   - github
-  - iterm2
-  - hpedrorodrigues/tools/dockutil
+  - vmware-fusion
+  - font-source-code-pro
+  - google-chrome
+  - lastpass
+  - telegram
+  - qlcolorcode
+  - qlmarkdown
+  - qlvideo
+  - qlimagesize
+  - qlstephen
+  - quicklook-json
+
 
 #mas_installed_apps:
 #  - { id: 443987910, name: "1Password" }
