@@ -11,31 +11,51 @@ homebrew_installed_packages:
 #  - dockutil
 
 homebrew_cask_apps:
-  - iterm2
-  - hpedrorodrigues/tools/dockutil
   - barrier
-  - slack
-  - timeular
-  - github
-  - vmware-fusion
+  #- cyberduck
+  - deepl
+  #- docker
+  #- emacs-mac-spacemacs-icon
+  - figma
+  - firefox
   - font-source-code-pro
+  - gas-mask
+  - hammerspoon
+  - github
   - google-chrome
+  - hpedrorodrigues/tools/dockutil
+  - insomnia
+  - iterm2
   - lastpass
-  - telegram
+  - marked
+  - mcreator
+  #- multipass
+  - notion
+  - postman
+  - ql-ansilove
+  - qladdict
   - qlcolorcode
-  - qlmarkdown
-  - qlvideo
+  - qlcommonmark
   - qlimagesize
+  - qlmarkdown
+  - qlmobi
+  - qlprettypatch
   - qlstephen
+  - qlvideo
+  - qlcolorcode
+  - quicklook-csv
   - quicklook-json
-barrier				github				microsoft-auto-update		qlcommonmark			quicklook-json			tradingview
-cyberduck			google-chrome			microsoft-edge-dev		qlimagesize			quicklook-pfm			visual-studio-code
-deepl				hammerspoon			multipass			qlmarkdown			slack				webpquicklook
-docker				insomnia			notion				qlmobi				spotify				windscribe
-emacs-mac-spacemacs-icon	iterm2				postman				qlprettypatch			telegram
-figma				lastpass			ql-ansilove			qlstephen			tidal
-firefox				marked				qladdict			qlvideo				timely
-gas-mask			mcreator			qlcolorcode			quicklook-csv			timeular
+  - quicklook-pfm
+  - slack
+  - spotify
+  - telegram
+  #- tidal
+  #- timely
+  - timeular
+  - vmware-fusion
+  - visual-studio-code
+  - webpquicklook
+  - windscribe
 
 #mas_installed_apps:
 #  - { id: 443987910, name: "1Password" }
