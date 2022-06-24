@@ -28,7 +28,14 @@ homebrew_cask_apps:
   - qlimagesize
   - qlstephen
   - quicklook-json
-
+barrier				github				microsoft-auto-update		qlcommonmark			quicklook-json			tradingview
+cyberduck			google-chrome			microsoft-edge-dev		qlimagesize			quicklook-pfm			visual-studio-code
+deepl				hammerspoon			multipass			qlmarkdown			slack				webpquicklook
+docker				insomnia			notion				qlmobi				spotify				windscribe
+emacs-mac-spacemacs-icon	iterm2				postman				qlprettypatch			telegram
+figma				lastpass			ql-ansilove			qlstephen			tidal
+firefox				marked				qladdict			qlvideo				timely
+gas-mask			mcreator			qlcolorcode			quicklook-csv			timeular
 
 #mas_installed_apps:
 #  - { id: 443987910, name: "1Password" }
