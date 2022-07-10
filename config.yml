@@ -13,6 +13,7 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - barrier
   #- cyberduck
+  - dbngin
   - deepl
   #- docker
   #- emacs-mac-spacemacs-icon
@@ -20,9 +21,9 @@ homebrew_cask_apps:
   - firefox
   - font-source-code-pro
   - gas-mask
-  - hammerspoon
   - github
   - google-chrome
+  - hammerspoon
   - hpedrorodrigues/tools/dockutil
   - insomnia
   - iterm2
@@ -34,14 +35,12 @@ homebrew_cask_apps:
   - ql-ansilove
   - qladdict
   - qlcolorcode
-  - qlcommonmark
   - qlimagesize
   - qlmarkdown
   - qlmobi
   - qlprettypatch
   - qlstephen
   - qlvideo
-  - qlcolorcode
   - quicklook-csv
   - quicklook-json
   - quicklook-pfm
@@ -51,10 +50,10 @@ homebrew_cask_apps:
   #- tidal
   #- timely
   - timeular
-  - vmware-fusion
   - visual-studio-code
+  - vmware-fusion
   - webpquicklook
-  - windscribe
+  #- windscribe
 
 #mas_installed_apps:
 #  - { id: 443987910, name: "1Password" }
