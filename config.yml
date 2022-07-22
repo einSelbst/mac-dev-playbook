@@ -1,12 +1,13 @@
 
 homebrew_installed_packages:
-  - zsh
   - git
+  - nvm
+  - zsh
+  - zsh-autosuggestions
+  - zsh-git-prompt
   - zsh-history-substring-search
   - zsh-syntax-highlighting
-  - zsh-autosuggestions
   - zsh-you-should-use
-  - zsh-git-prompt
 
 #  - dockutil
 
@@ -19,7 +20,7 @@ homebrew_cask_apps:
   #- emacs-mac-spacemacs-icon
   - figma
   - firefox
-  - font-source-code-pro
+  #- font-source-code-pro
   - gas-mask
   - github
   - google-chrome
