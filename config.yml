@@ -1,5 +1,6 @@
 
 homebrew_installed_packages:
+  - deno
   - git
   - nvm
   - zsh
