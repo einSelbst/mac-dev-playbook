@@ -12,7 +12,7 @@ homebrew_installed_packages:
   # ln -s /usr/local/opt/emacs-head@28/Emacs.app /Applications
   - gcc # for emacs
   - git
-  - nvm
+  - fnm # better version of nvm
   - libgccjit # for emacs
   - texinfo  # for emacs
   # - nvm
