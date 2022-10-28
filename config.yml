@@ -12,7 +12,7 @@ homebrew_installed_packages:
   # ln -s /usr/local/opt/emacs-head@28/Emacs.app /Applications
   - gcc # for emacs
   - git
-  - fnm # better version of nvm
+  - fnm # better version of nvm, should add setup
   - libgccjit # for emacs
   - texinfo  # for emacs
   # - nvm
@@ -48,6 +48,7 @@ homebrew_cask_apps:
   - marked
   #- multipass
   - notion
+  - pnpm
   - postman
   - ql-ansilove
   - qladdict
