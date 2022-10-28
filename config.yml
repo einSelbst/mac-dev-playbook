@@ -10,6 +10,7 @@ homebrew_installed_packages:
   - emacs-head@28 --with-cocoa --with-native-comp --with-modern-icon-elrumo2
   # then run:
   # ln -s /usr/local/opt/emacs-head@28/Emacs.app /Applications
+  - fig
   - gcc # for emacs
   - git
   - fnm # better version of nvm
