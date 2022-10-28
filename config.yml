@@ -3,11 +3,19 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/cask-drivers
+  - daviderestivo/emacs-head
 
 homebrew_installed_packages:
   - deno
+  - emacs-head@28 --with-cocoa --with-native-comp --with-modern-icon-elrumo2
+  # then run:
+  # ln -s /usr/local/opt/emacs-head@28/Emacs.app /Applications
+  - gcc # for emacs
   - git
   - nvm
+  - libgccjit # for emacs
+  - texinfo  # for emacs
+  # - nvm
   - zsh
   - zsh-autosuggestions
   - zsh-git-prompt
