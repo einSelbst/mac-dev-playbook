@@ -28,7 +28,7 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - barrier
   #- cyberduck
-  - dbeaver
+  - dbeaver-community
   - dbngin
   - deepl
   #- docker
